@@ -1,0 +1,102 @@
+/* Main page */
+:root {
+    --primery-color:#2E2F42;
+    --title-text-color:#434455;
+    --button-color:#FFFFFF;
+    --accent-color:#4D5AE5FF;
+}
+/* Header */
+.nav a{
+    color: var(--primery-color);
+}
+
+.adress a{
+    color: var(--title-text-color);
+}
+
+.hero{
+    color: var(--button-color);
+    background-color: var(--primery-color);
+}
+
+.hero button{
+    color: var(--button-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero button:hover, .hero button:focus {
+    color:var(--accent-color);
+    background-color: var(--button-color);
+}
+
+
+ul{
+    list-style: none;
+}
+/* Main */
+.benefits-title{
+    opacity: 0;
+}
+
+.benefits h3{
+    color: var(--primery-color);
+}
+
+.benefits p{
+    color: var(--title-text-color);
+}
+
+.activity h2{
+    color: var(--primery-color);
+}
+
+.team h2{
+    color: var(--primery-color);
+}
+
+.team h3{
+    color: var(--primery-color);
+}
+
+.team p{
+    color: var(--title-text-color);
+}
+
+/* Footer */
+.footer{
+    background-color: var(--primery-color);
+}
+
+.footer > a{
+    color: #F4F4FD;
+}
+
+.footer > p{
+    color: #E7E9FC;
+}
+
+
+
+
+
+/* Portfolio page */
+/* Main */
+.filter-list button{
+    color:var(--accent-color);
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.filter-list button:hover, .filter-list button:focus{
+    color: var(--button-color);
+    background-color:var(--accent-color);
+}
+
+
+
+
+
+
